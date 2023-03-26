@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {       margin-left: 200px;
+             padding-left: 20px;
+
+            font-family: 'Playfair Display', serif;
+            color: black;
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 24px;
+            font-weight: bold;
+
+        }
+
+        h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 20px;
+        }
+
+        h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 16px;
+        }
+
+        button {
+            background-color:#b44b68;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+        }
+
+
+        /* Style the side navigation */
+.col-md-3 {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+        .inputLabel {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        input.inputField {
+            padding: 5px;
+            border: 1px solid #b44b68;
+        }
+
+        div.box {
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            margin: 0 10px 0 10px;
+        }
+
+        #primary1 {
+            background-color: #ec91a8
+        }
+
+        #primary2 {
+            background-color: #f4c8d3;
+        }
+
+        #primary3 {
+            background-color: #b44b68;
+        }
+
+        .warning {
+            background-color: yellow;
+            font-weight: bold;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .danger {
+            background-color: red;
+            font-weight: bold;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .success {
+            background-color: green;
+            font-weight: bold;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        svg.svg-inline--fa {
+            color: white;
+        }
+
+        .spacer {
+            margin-top: 25px;
+        }
+
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 50px;
+            padding: 10px;
+            text-align: center;
+        }
+    
